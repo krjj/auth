@@ -38,11 +38,20 @@
 
 
 
-# Auth :closed_lock_with_key:
+# About
 
-Authentication service with support for active session management.
+Auth is flexible authentication solution. It : 
 
-
+- Is nodejs based.
+- Stores session data in redis store.
+- Persistent data stored in MongoDB.
+- Has active session management functionality.
+- Can display all the logged in/active session.
+- Has ability to perform targeted session invalidation.
+- Has ability to logout from all the sessions.
+- Can store session context data such as : ip, login-time, device.
+- IP to location resolver using GeoLite IP.
+- Has configurable session TTL. Default is 86400 seconds.
 
 ## Installation
 
