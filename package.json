@@ -8,8 +8,8 @@
   },
   "scripts": {
     "test": "tap test/**/*.test.js",
-    "start": "fastify start -l -a 0.0.0.0 info app.js",
-    "dev": "fastify start -l -a 0.0.0.0 info -P app.js --watch"
+    "start": "fastify start -a 0.0.0.0 -l  info app.js",
+    "dev": "fastify start -a 0.0.0.0 -l  info -P app.js --watch"
   },
   "keywords": [],
   "author": "Kshitij Jamdade",
