@@ -71,14 +71,14 @@ npm install
 ```
 
 
-## Usage
+## :wrench: Usage
 
 To start the server in production mode
 
 ```bash
 yarn run start
 ```
-Development mode
+ ⚠️ Development mode
 
 ```bash
 yarn run dev
