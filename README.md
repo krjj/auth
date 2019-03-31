@@ -40,8 +40,9 @@
 
 # About
 
-Auth is flexible authentication solution. It : 
+Auth is flexible authentication solution.
 
+✨ Features
 - Is nodejs based.
 - Stores session data in redis store.
 - Persistent data stored in MongoDB.
@@ -53,7 +54,7 @@ Auth is flexible authentication solution. It :
 - IP to location resolver using GeoLite IP.
 - Has configurable session TTL. Default is 86400 seconds.
 
-## Installation
+## 💽 Installation
 
 Clone this repo
 
@@ -72,13 +73,19 @@ npm install
 
 ## Usage
 
-To start the server
+To start the server in production mode
 
 ```bash
 yarn run start
 ```
+Development mode
 
-## Live Demo
+```bash
+yarn run dev
+```
+
+
+## 💻 Live Demo
 
 For demo purpose the instance is running on the DO Droplet.
 Location of the API Server - [API Server](https://api.kshitij-jamdade.ml).
@@ -91,9 +98,9 @@ The above server is configured in following way -
 5. Uses hosted Redis Database. Provided by [Redis Labs](https://redislabs.com/).
 6. Uses hosted MongoDB provided by [Mongo Atlas](https://www.mongodb.com/cloud/atlas).
 
+Access demo front-end [here](https://shipwaves.kshitij-jamdade.ml/login)
 
-
-## Environment variables
+## 🤖 Environment variables
 
 All the environment variables are store in .env file.
 
@@ -105,8 +112,14 @@ All the environment variables are store in .env file.
 | mongo-connect-uri  | Url with mongodb+srv:// protocol  |
 | session-ttl-secs | Defines how long session should be valid after which the session is invalidated automatically. Default is 86400 seconds or 1 Day.  |
 
-## Contributing
+## 🛠 Technology Stack
+- NodeJS
+- Fastify
+- Redis
+- MongoDB
+
+## 🤝 Contribute [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat)](http://makeapullrequest.com)
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
-## License
+## 📜 License
 [MIT](https://choosealicense.com/licenses/mit/)
