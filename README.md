@@ -1,3 +1,43 @@
+<p align="center">
+	<a href="https://gitmoji.carloscuesta.me">
+		<img src="https://shipwaves.kshitij-jamdade.ml/images/logo.png" width="456" alt="gitmoji">
+	</a>
+</p>
+
+<p align="center">
+   <a href="">
+		<img src="https://img.shields.io/github/last-commit/krjj/auth.svg" alt="">
+	</a>
+  <a href="">
+		<img src="https://img.shields.io/github/commit-activity/m/krjj/auth.svg" alt="">
+	</a>
+  <a href="">
+		<img src="https://img.shields.io/github/issues/krjj/auth.svg" alt="">
+	</a>
+  <a href="">
+		<img src="https://img.shields.io/github/issues-closed-raw/krjj/auth.svg" alt="">
+	</a>
+  <a href="">
+		<img src="https://img.shields.io/badge/license-MIT-green.svg" alt="">
+	</a>
+  <a href="">
+		<img src="https://img.shields.io/github/forks/krjj/auth.svg?style=social" alt="">
+	</a>
+  <a href="">
+		<img src="https://img.shields.io/github/stars/krjj/auth.svg?style=social" alt="">
+	</a>
+  <a href=">
+		<img src="https://img.shields.io/github/watchers/krjj/auth.svg?style=social" alt="">
+	</a>
+</p>
+                                                                                       
+                                                                                       
+                                                                                       
+                                                                                       
+
+
+
+
 # Auth :closed_lock_with_key:
 
 Authentication service with support for active session management.
